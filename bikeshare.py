@@ -201,7 +201,7 @@ def user_stats_gender(df):
     print()
 
 def display_data(df):
-    """Displays raw bikeshare data."""
+    """Displays more information on raw bikeshare data."""
     start_loc = 0
     display_data = input('\nWould you like to see more data? Enter yes or no.\n')
     while display_data.lower() == 'yes':
@@ -219,7 +219,6 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        table_stats(df, city)
 
         display_data(df)
 
