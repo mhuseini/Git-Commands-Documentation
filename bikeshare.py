@@ -189,7 +189,7 @@ def user_stats_birth(df):
     print('most common year of birth:', common_year_birth)
 
 def user_stats_gender(df):
-    """Displays statistics of analysis based on the gender of bikeshare users."""
+    """Displays data on the gender of bikeshare users."""
 
     # Display counts of gender
     print("Counts of gender:\n")
